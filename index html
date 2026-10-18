@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berita Kita - Portal Berita</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f4f7;
+      color: #222;
+    }
+
+    header {
+      background: #12345a;
+      color: white;
+      padding: 24px 6%;
+    }
+
+    header h1 { margin: 0; }
+
+    nav {
+      background: #205080;
+      padding: 14px 6%;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 18px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 25px auto;
+      padding: 0 16px;
+    }
+
+    .berita {
+      background: white;
+      padding: 18px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .berita img {
+      width: 100%;
+      max-height: 360px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .kategori { color: #1769aa; font-weight: bold; }
+
+    .baca {
+      display: inline-block;
+      background: #1769aa;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #12345a;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BERITA KITA</h1>
+    <p>Informasi aktual dan terpercaya</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="#nasional">Nasional</a>
+    <a href="#teknologi">Teknologi</a>
+    <a href="#olahraga">Olahraga</a>
+  </nav>
+
+  <main>
+    <h2>Berita Terbaru</h2>
+
+    <article class="berita" id="nasional">
+      <img
+        src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1000"
+        alt="Ilustrasi berita dan koran">
+
+      <p class="kategori">NASIONAL</p>
+      <h2>Judul Berita Utama Hari Ini</h2>
+      <p>
+        Tulis ringkasan berita di sini. Jelaskan inti peristiwa
+        secara singkat agar pembaca tertarik membaca lebih lanjut.
+      </p>
+      <a class="baca" href="artikel-1.html">
+        Baca Selengkapnya
+      </a>
+    </article>
+
+    <article class="berita" id="teknologi">
+      <img
+        src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1000"
+        alt="Perangkat teknologi">
+
+      <p class="kategori">TEKNOLOGI</p>
+      <h2>Perkembangan Teknologi Terbaru</h2>
+      <p>
+        Tulis ringkasan berita teknologi di bagian ini.
+      </p>
+      <a class="baca" href="artikel-2.html">
+        Baca Selengkapnya
+      </a>
+    </article>
+
+    <article class="berita" id="olahraga">
+      <p class="kategori">OLAHRAGA</p>
+      <h2>Informasi Olahraga Terkini</h2>
+      <p>
+        Tambahkan ringkasan berita olahraga di sini.
+      </p>
+      <a class="baca" href="artikel-3.html">
+        Baca Selengkapnya
+      </a>
+    </article>
+  </main>
+
+  <footer>
+    &copy; 2026 Berita Kita. Hak cipta dilindungi.
+  </footer>
+
+</body>
+</html>
